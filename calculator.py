@@ -1,3 +1,4 @@
+# This testing comment test merge conflict
 # Get first and second number
 fnum = int(input("Enter The first_number:"))
 snum = int(input("Enter The second_number:"))
