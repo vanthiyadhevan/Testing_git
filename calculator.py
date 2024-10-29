@@ -3,6 +3,7 @@ fnum = int(input("Enter The first_number:"))
 snum = int(input("Enter The second_number:"))
 
 # main function 
+
 def cal(fnum,snum):
     add = fnum + snum
     sub = fnum - snum
@@ -13,6 +14,15 @@ def cal(fnum,snum):
     print("Multiplication of:",fnum,"*",snum,"=",mul)
     print("Division of:",fnum,"%",snum,"=",div)
 
+while True:
+    cal(fnum,snum)
+    choice = input("Do You Want Perform the Action Again?")
+    if choice != 'yes':
+        break
 
-cal(fnum,snum)
+    fnum = int(input("Enter The first number: "))
+    snum = int(input("Enter The second number: "))
+
+
+
 
